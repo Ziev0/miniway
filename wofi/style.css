@@ -1,0 +1,73 @@
+window {
+    margin: 5px;
+    border: 0px solid #ffc300;
+    background-color: rgba(0, 0, 0, 0.0);
+    /* opacity: 1; */
+    font-family: FontAwesome;
+}
+
+@keyframes erscheinen {
+    from {opacity: 0;}
+      to {opacity: 1;}
+}
+
+#input {
+    margin: 0px 0px 5px;
+    border: 1px solid #ffc300;
+    background-color: rgba(1, 1, 1, 0.7);
+    border-radius: 20px;
+    color : #ffc300;
+}
+
+#inner-box {
+    margin: 0px;
+    border: 0px solid #ffc300;
+    border-radius: 24px;
+    background-color: rgba(0.7, 0.7, 0, 0.7);
+}
+
+/* #inner-box flowboxchild:nth-child(even) { */
+/*     background-color: #555555; */
+/* } */
+
+
+#inner-box flowboxchild:nth-child(even) {
+    background-color: #000000;
+    border-radius: 24px;
+    color: #ffffff;
+}
+
+
+#inner-box flowboxchild:nth-child(odd) {
+    background-color: #000000;
+    border-radius: 24px;
+    color: #ffffff;
+}
+
+#outer-box {
+    margin: 5px;
+    border: 0px solid rgb(203, 75, 22);
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+#scroll {
+    margin: 0px;
+    border: 5px solid #ffc300;
+    border-radius: 24px;
+    background-color: rgba(1, 1, 0, 0.7);
+    /* animation: erscheinen 0.3s linear; */
+}
+
+#text {
+    margin: 1px;
+    border: 0px solid #44AA44;
+    background-color: rgba(0,0,0,0);
+    color: #ffc300;
+}
+
+#selected {
+    background-color: rgba(0,0,0,0);
+    border: 0px solid #ffc300;
+    border-radius: 24px;
+    color: #000000;
+}

@@ -1,0 +1,209 @@
+* {
+    font-family: "ProFont IIx Nerd Font" !important;
+}
+
+/* Make ALL text elements yellow */
+* {
+    color: #ffc300 !important;
+}
+
+/* Dark glass-like transparency for main UI */
+#navigator-toolbox {
+    background-color: rgba(20, 20, 20, 0.7) !important;
+}
+
+#nav-bar, #PersonalToolbar, #sidebar-box {
+    background-color: transparent !important;
+}
+
+/* Force ALL tabs to have dark background */
+.tabbrowser-tab {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Active tab with black background */
+.tab-background-active {
+    background-color: #000000 !important;
+}
+
+/* Fix URL bar background - more specific targeting */
+#urlbar-container, #urlbar, #urlbar-input-container {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border: none !important;
+}
+
+#urlbar-background {
+    background-color: transparent !important;
+}
+
+/* Fix search bar background */
+.searchbar-textbox {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border: none !important;
+}
+
+/* Fix menu button (hamburger menu) background */
+#PanelUI-menu-button {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border: none !important;
+}
+
+/* Fix the actual menu panel background */
+#appMenu-popup {
+    background-color: rgba(20, 20, 20, 0.9) !important;
+}
+
+/* Style for all tabs */
+.tab-label {
+    color: #ffc300 !important;
+}
+
+/* Specific targeting for various UI elements */
+
+/* Navigation buttons (back, forward, reload, etc.) */
+#back-button, #forward-button, #reload-button, #stop-button, #home-button {
+    fill: #ffc300 !important;
+    color: #ffc300 !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border: none !important;
+}
+
+/* Extension buttons */
+#unified-extensions-button, .webextension-browser-action {
+    fill: #ffc300 !important;
+    color: #ffc300 !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border: none !important;
+}
+
+/* Tab close button */
+.tab-close-button {
+    fill: #ffc300 !important;
+    color: #ffc300 !important;
+}
+
+/* All tabs dropdown (list all tabs button) */
+#alltabs-button {
+    fill: #ffc300 !important;
+    color: #ffc300 !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border: none !important;
+}
+
+/* URL bar elements */
+#urlbar-input, #urlbar-go-button {
+    color: #ffc300 !important;
+}
+
+/* Sidebar text */
+#sidebar, .sidebar-panel {
+    color: #ffc300 !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Context menus */
+menupopup, menu {
+    color: #ffc300 !important;
+    background-color: rgba(20, 20, 20, 0.9) !important;
+}
+
+/* Scrollbars */
+* {
+    scrollbar-color: #ffc300 #333333 !important;
+}
+
+/* Remove any white borders that might be appearing */
+toolbar, .browser-toolbar, #TabsToolbar, #tabbrowser-tabs {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* ===== SIDE MENU SETTINGS ===== */
+
+/* Main menu panel */
+#appMenu-popup {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    border: 1px solid #333 !important;
+}
+
+/* Menu items in the side menu */
+panelview,
+#appMenu-menuView,
+#widget-overflow-mainView {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    color: #ffc300 !important;
+}
+
+/* Individual menu items */
+#appMenu-popup .panel-subview-body,
+#appMenu-popup .panel-header,
+#appMenu-popup menuitem,
+#appMenu-popup menu {
+    background-color: transparent !important;
+    color: #ffc300 !important;
+}
+
+/* Hover state for menu items */
+#appMenu-popup menuitem:hover,
+#appMenu-popup menu:hover {
+    background-color: rgba(255, 195, 0, 0.2) !important;
+}
+
+/* Menu separators */
+#appMenu-popup menuseparator {
+    border-color: #333 !important;
+    margin: 4px 0 !important;
+}
+
+/* Menu icons */
+#appMenu-popup .menu-iconic-icon,
+#appMenu-popup .menu-iconic-left {
+    fill: #ffc300 !important;
+    color: #ffc300 !important;
+}
+
+/* Header buttons in menu (e.g., "Edit", "Customize") */
+#appMenu-popup .panel-subview-body .subviewbutton {
+    background-color: transparent !important;
+    color: #ffc300 !important;
+}
+
+/* Fix for the settings panel when opened from the menu */
+#PrefWindow {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    color: #ffc300 !important;
+}
+
+/* Settings panel elements */
+#PrefWindow radio,
+#PrefWindow checkbox,
+#PrefWindow button,
+#PrefWindow textbox {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: #ffc300 !important;
+    border-color: #333 !important;
+}
+
+/* Settings panel labels */
+#PrefWindow label,
+#PrefWindow description {
+    color: #ffc300 !important;
+}
+
+/* Settings panel list items */
+#PrefWindow treechildren::-moz-tree-row {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: #ffc300 !important;
+}
+
+#PrefWindow treechildren::-moz-tree-row(selected) {
+    background-color: rgba(255, 195, 0, 0.3) !important;
+    color: #ffc300 !important;
+}
+
+/* Settings panel sections */
+#PrefWindow groupbox {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: #ffc300 !important;
+    border-color: #333 !important;
+}
